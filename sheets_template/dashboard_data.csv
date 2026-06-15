@@ -1,0 +1,11 @@
+Metric,Formula,Example Value,Notes
+Total Leads,"=COUNTA(Leads!A2:A)",8,Counts populated lead IDs
+Won Leads,"=COUNTIF(Leads!G2:G,""Won"")",1,Closed-won opportunities
+Conversion Rate,"=IFERROR(COUNTIF(Leads!G2:G,""Won"")/COUNTA(Leads!A2:A),0)",12.5%,Format as percentage
+Pipeline Value,"=SUMIFS(Leads!I2:I,Leads!G2:G,""<>Won"",Leads!G2:G,""<>Lost"")",305000,Format as INR
+Overdue Follow-ups,"=COUNTIFS(Followups!F2:F,""pending"",Followups!D2:D,""<""&NOW())",1,Use red conditional formatting
+Due Today,"=COUNTIFS(Followups!F2:F,""pending"",Followups!D2:D,"">=""&TODAY(),Followups!D2:D,""<""&TODAY()+1)",1,Daily execution KPI
+WhatsApp Leads,"=COUNTIF(Leads!F2:F,""WhatsApp"")",2,Source volume
+Average Lead Score,"=AVERAGE(Leads!J2:J)",72.25,Format with one decimal
+Param Won Rate,"=IFERROR(COUNTIFS(Leads!K2:K,""Param Saxena"",Leads!G2:G,""Won"")/COUNTIF(Leads!K2:K,""Param Saxena""),0)",25%,Agent performance example
+WhatsApp Conversion,"=IFERROR(COUNTIFS(Leads!F2:F,""WhatsApp"",Leads!G2:G,""Won"")/COUNTIF(Leads!F2:F,""WhatsApp""),0)",0%,Source-wise conversion example

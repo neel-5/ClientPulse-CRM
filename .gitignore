@@ -1,0 +1,31 @@
+# Environment and credentials
+.env
+.env.local
+*.pem
+*service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.db
+backend/test_clientpulse.db
+
+# Node
+node_modules/
+frontend/dist/
+*.log
+
+# Generated exports and runtime files
+exports/
+backups/
+.logs/
+screenshots/*.tmp.png
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*.local.json

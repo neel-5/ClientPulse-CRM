@@ -1,0 +1,5 @@
+Follow-up ID,Lead ID,Lead Name,Due At,Type,Status,Owner,Note,Completed At
+1,1,Aarav Mehta,2026-06-15 16:00,call,pending,Param Saxena,Confirm decision-maker and budget,
+2,2,Riya Kapoor,2026-06-16 11:00,demo,pending,Riya Sales,Product walkthrough with operations team,
+3,3,Kabir Sharma,2026-06-14 15:30,whatsapp,pending,Param Saxena,Share gym onboarding use case,
+4,6,Neha Verma,2026-06-16 14:30,email,pending,Riya Sales,Send pricing and implementation plan,

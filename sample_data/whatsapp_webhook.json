@@ -1,0 +1,33 @@
+{
+  "object": "whatsapp_business_account",
+  "entry": [
+    {
+      "id": "DEMO_WABA_ID",
+      "changes": [
+        {
+          "field": "messages",
+          "value": {
+            "messaging_product": "whatsapp",
+            "contacts": [
+              {
+                "profile": { "name": "Priya Nair" },
+                "wa_id": "919876500321"
+              }
+            ],
+            "messages": [
+              {
+                "from": "919876500321",
+                "id": "wamid.demo-clientpulse-001",
+                "timestamp": "1781505000",
+                "text": {
+                  "body": "Can ClientPulse remind my clinic team about enquiries that have not been called back?"
+                },
+                "type": "text"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

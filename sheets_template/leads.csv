@@ -1,0 +1,9 @@
+Lead ID,Name,Business,Phone,Email,Source,Stage,Status,Value,Score,Owner,Created At,Next Follow-up
+1,Aarav Mehta,Mehta Dental Studio,+919810000101,aarav@example.com,WhatsApp,Interested,Open,45000,82,Param Saxena,2026-06-09 10:00,2026-06-15 16:00
+2,Riya Kapoor,ScaleUp Coaching,+919810000102,riya@example.com,Referral,Demo Scheduled,Open,72000,91,Riya Sales,2026-06-10 11:30,2026-06-16 11:00
+3,Kabir Sharma,UrbanFit Gym,+919810000103,kabir@example.com,Instagram,Contacted,Open,30000,65,Param Saxena,2026-06-11 09:15,2026-06-14 15:30
+4,Ananya Iyer,Bloom Skin Clinic,+919810000104,ananya@example.com,Google Ads,New,Open,56000,74,Riya Sales,2026-06-15 08:40,
+5,Vikram Singh,NorthStar Realty,+919810000105,vikram@example.com,Website,Won,Closed,125000,96,Param Saxena,2026-06-04 14:00,
+6,Neha Verma,NV Design Lab,+919810000106,neha@example.com,WhatsApp,Interested,Open,38000,78,Riya Sales,2026-06-12 16:20,2026-06-16 14:30
+7,Dev Malhotra,LearnLoop Academy,+919810000107,dev@example.com,LinkedIn,Contacted,Open,64000,61,Param Saxena,2026-06-13 12:10,
+8,Sana Khan,Sana Events,+919810000108,sana@example.com,Referral,Lost,Closed,28000,31,Riya Sales,2026-06-07 13:20,

@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ClientPulse: Backend",
+      "type": "shell",
+      "command": "${workspaceFolder}\\backend\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "uvicorn", "app.main:app", "--reload", "--port", "8000"],
+      "options": { "cwd": "${workspaceFolder}\\backend" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "ClientPulse: Frontend",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "dev"],
+      "options": { "cwd": "${workspaceFolder}\\frontend" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "ClientPulse: Verify",
+      "dependsOrder": "sequence",
+      "dependsOn": ["ClientPulse: Backend tests", "ClientPulse: Frontend build"]
+    },
+    {
+      "label": "ClientPulse: Backend tests",
+      "type": "shell",
+      "command": "${workspaceFolder}\\backend\\.venv\\Scripts\\python.exe",
+      "args": ["-m", "pytest", "-q"],
+      "options": { "cwd": "${workspaceFolder}\\backend" },
+      "problemMatcher": []
+    },
+    {
+      "label": "ClientPulse: Frontend build",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "build"],
+      "options": { "cwd": "${workspaceFolder}\\frontend" },
+      "problemMatcher": []
+    }
+  ]
+}
